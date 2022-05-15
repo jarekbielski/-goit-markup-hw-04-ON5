@@ -294,22 +294,18 @@ img {
     width: 270px;
 }
 
-.hero-list-item {
-
-    align-items: center;
-    justify-content: space-between;
-    background: #F5F4FA;
-    border-radius: 4px;
-}
-
-.hero-icon {
-    width: 65, 32px;
-    height: 70px;
-}
 
 .hero-list {
-    display: block;
+    width: 270px;
+    height:120px;
+    background-color: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
+
+
 
 .portfolio-discription-title {
     font-weight: 700;
