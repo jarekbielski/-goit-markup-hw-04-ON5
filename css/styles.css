@@ -461,22 +461,8 @@ img {
 /*---FOOTER--- */
 .footer {
     background-color: #2F303A;
-    display: flex;
-}
-
-.footer-container .footer {
-    display: flex;
-
 
 }
-
-.navigation_logo_footer .contact-list {
-    display: flex;
-    flex-direction: column;
-
-}
-
-
 
 .adress-street {
     font-weight: 400;
@@ -505,8 +491,15 @@ img {
 
 }
 
+.footer .footer-container {
+    display: flex;
+}
+
+
 .footer-socials {
     margin-left: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-socials-text {
@@ -517,7 +510,7 @@ img {
 
 .footer-socials-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .footer-socials-item:not(:last-child) {
