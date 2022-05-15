@@ -162,7 +162,6 @@ img {
 }
 
 
-
 .adress {
     font-weight: 500;
     font-size: 14px;
@@ -171,12 +170,16 @@ img {
     color: #757575;
     align-items: center;
     display: flex;
-
 }
 
 .adress:hover,
-.adress:focus {
-    color: var(--main-color)
+.adress:focus, .contact-icon:hover, .contact-icon:focus {
+    color: var(--main-color);
+    fill: var(--main-color)
+}
+
+.contact-icon {
+    margin-right: 10px;
 }
 
 .header .adress {
