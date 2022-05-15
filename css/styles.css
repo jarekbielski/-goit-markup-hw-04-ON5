@@ -40,6 +40,12 @@ img {
     margin: 0 auto;
 }
 
+.footer-container {
+    width: 1200px;
+    padding: 0 15px;
+    align-items: center;
+    margin: 0 auto;
+}
 
 .section {
     padding-top: 94px;
@@ -117,7 +123,7 @@ img {
     line-height: 1.938;
     letter-spacing: 0.03em;
     color: var(--main-color);
-    margin-left: 163px;
+    margin-right: 90px;
     text-transform: none;
     text-decoration: none;
 }
@@ -422,15 +428,55 @@ img {
 
 /*---END-TEAM--- */
 
+/*---CLIENTS---*/
+.client {
+    display: flex;
+}
+
+.clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clients-list-link {
+    display: flex;
+    fill: #AFB1B8;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+}
+
+
+/*---END-CLIENTS---*/
 
 /*---FOOTER--- */
 .footer {
     background-color: #2F303A;
-}
-
-.footer .cotainer {
     display: flex;
 }
+
+.footer-container .footer {
+    display: flex;
+
+
+}
+
+.navigation_logo_footer .contact-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 
 .adress-street {
     font-weight: 400;
@@ -457,6 +503,44 @@ img {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 
+}
+
+.footer-socials {
+    margin-left: 70px;
+}
+
+.footer-socials-text {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.footer-socials-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-socials-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-socials-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+
+.footer-socials-link:focus, .footer-socials-link:hover {
+    background-color: #2196f3;
+}
+
+.social-icon {
+    color: #FFFFFF
 }
 
 /*---END-FOOTER--- */
