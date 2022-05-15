@@ -297,7 +297,7 @@ img {
 
 .hero-list {
     width: 270px;
-    height:120px;
+    height: 120px;
     background-color: #F5F4FA;
     display: flex;
     justify-content: center;
@@ -392,7 +392,6 @@ img {
 .social-icon {
     width: 20px;
     height: 20px;
-    fill: #afb1b8;
 }
 
 .social-list-link {
@@ -403,15 +402,17 @@ img {
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+    background-color: #FFFFFF;
+    fill: #AFB1B8;
 
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
+    background-color: var(--main-color);
     fill: #FFFFFF;
     Width: 44px;
     Height: 44px;
-    background-color: var(--main-color);
     border-radius: 50%;
     align-items: center;
     justify-content: center;
