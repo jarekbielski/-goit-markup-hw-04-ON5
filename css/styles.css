@@ -273,6 +273,9 @@ img {
 
 .discription-list {
     display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -283,13 +286,29 @@ img {
 
 
 .discription {
-
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
     width: 270px;
+}
+
+.hero-list-item {
+
+    align-items: center;
+    justify-content: space-between;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.hero-icon {
+    width: 65, 32px;
+    height: 70px;
+}
+
+.hero-list {
+    display: block;
 }
 
 .portfolio-discription-title {
@@ -365,6 +384,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 16px;
 }
 
 .social-list {
@@ -376,6 +396,7 @@ img {
 .social-icon {
     width: 20px;
     height: 20px;
+    fill: #afb1b8;
 }
 
 .social-list-link {
@@ -386,24 +407,20 @@ img {
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    
+
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
+    fill: #FFFFFF;
     Width: 44px;
     Height: 44px;
-    background: var(--main-color);
+    background-color: var(--main-color);
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    
-}
 
-.social-icon {
-    fill: #FFFFFF;
 }
-
 
 
 /*---END-TEAM--- */
